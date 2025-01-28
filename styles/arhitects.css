@@ -34,6 +34,13 @@
     border: none;
 
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px ;
+}
 
 
 /* header styles */
@@ -48,6 +55,7 @@
     font-size: 3rem;
     
 }
+
 
 .nav-item{
       list-style: none;
@@ -76,6 +84,27 @@
     
 }
 
+/* team and feature related styles */
+.teams{
+    align-items: center;
+
+}
+.tem-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.our-features{
+   margin-left: 100px;
+   max-width: 530px;
+}
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+#quick-list{
+    font-weight: 500;
+}
 
 @media screen and (max-width: 576px) {
     .navbar, .nav-link{

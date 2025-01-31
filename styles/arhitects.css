@@ -136,6 +136,22 @@ main > section{
 
 }
 
+#experience-badge{
+    padding: 35px 38px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#experience-year{
+    font-size:3rem;
+    font-weight: 700;
+}
+
+.features-architect{
+    width: 100%;
+}
 
 
 .facts-container{
@@ -190,6 +206,7 @@ main > section{
 @media screen and (max-width: 576px) {
     .navbar,
      .nav-link,
+     .features
      .teams{
         flex-direction: column;
 
@@ -212,6 +229,10 @@ main > section{
         gap: 50px;
      }
     .our-features{
+        margin-left: 20px;
+    }
+    #experience-badge{
+        margin-top: 20px;
         margin-left: 20px;
     }
    
